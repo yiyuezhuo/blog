@@ -8,5 +8,17 @@ title: yiyuezhuo's blog
 </div>
 
 {% for post in site.posts %}
-<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+<!--
+<div class="post-box">
+  <a href="{{ post.url }}" title="{{ post.title }}">
+    <h2 class="post">{{ post.title }}</h2>
+    <div class="desc-box">
+        {{ post.content | strip_html | truncatewords: 50 }}
+    </div>            
+  <div class="date-box"><span>{{ post.date | date_to_string }}</span></div>
+  </a>
+</div>
+-->
+{% include render_post.html %}
 {% endfor %}
+

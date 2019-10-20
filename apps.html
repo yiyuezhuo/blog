@@ -5,5 +5,5 @@ layout: default
 {% assign posts = site.posts | where: 'category', 'app' %}
 
 {% for post in posts %}
-<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{% include render_post.html %}
 {% endfor %}

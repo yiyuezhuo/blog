@@ -20,9 +20,11 @@ a {
     color: #999;
 }
 
+/*
 a:hover{
     text-decoration: underline;
 }
+*/
 
 h1 {
     font-size: 3em;
@@ -47,4 +49,24 @@ ul.posts {
 
 ul.posts li{
     list-style:none;
+}
+
+
+.title-box {
+    font-size: 2em;
+}
+
+.post-box {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 10px;
+}
+
+h2.post{
+    color: rgb(0,0,0);
+}
+
+.desc-box{
+    color:#404040;
+    padding-bottom: 10px;
 }
