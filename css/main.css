@@ -70,3 +70,8 @@ h2.post{
     color:#404040;
     padding-bottom: 10px;
 }
+
+img{
+    margin: auto;
+    display: block;
+}
