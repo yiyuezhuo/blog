@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Where "Variational" in VAE com from?
+title: Where "Variational" in VAE com from?(WIP)
 date: 2019-10-20 0:33
 category: tech
 ---
@@ -12,4 +12,4 @@ $$
 P(X) = ELBO + KL 
 $$
 
-ABC
+WIP...
