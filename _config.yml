@@ -1,1 +1,3 @@
 baseurl: /blog
+plugins:
+  - jekyll-seo-tag
